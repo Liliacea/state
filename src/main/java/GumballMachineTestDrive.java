@@ -18,42 +18,42 @@ public class GumballMachineTestDrive {
         GumballMonitor monitor = new GumballMonitor(gumballMachine);
 
 
-        System.out.println(gumballMachine);
+        System.out.println(gumballMachine.getLocation());
 
         gumballMachine.insertCoin();
         gumballMachine.turnCrank();
         gumballMachine.insertCoin();
         gumballMachine.turnCrank();
 
-        System.out.println(gumballMachine);
+        System.out.println(gumballMachine.getLocation());
 
         gumballMachine.insertCoin();
         gumballMachine.turnCrank();
         gumballMachine.insertCoin();
         gumballMachine.turnCrank();
 
-        System.out.println(gumballMachine);
+        System.out.println(gumballMachine.getLocation());
 
         gumballMachine.insertCoin();
         gumballMachine.turnCrank();
         gumballMachine.insertCoin();
         gumballMachine.turnCrank();
 
-        System.out.println(gumballMachine);
+        System.out.println(gumballMachine.getLocation());
 
         gumballMachine.insertCoin();
         gumballMachine.turnCrank();
         gumballMachine.insertCoin();
         gumballMachine.turnCrank();
 
-        System.out.println(gumballMachine);
+        System.out.println(gumballMachine.getLocation());
 
         gumballMachine.insertCoin();
         gumballMachine.turnCrank();
         gumballMachine.insertCoin();
         gumballMachine.turnCrank();
 
-        System.out.println(gumballMachine);
+        System.out.println(gumballMachine.getLocation());
 
         monitor.printState();
     }
